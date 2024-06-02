@@ -1,0 +1,51 @@
+/* Path: /src/styles/NewApp.css */
+.NewAppBackground {
+  background-image: url('../../public/sfondo_vairo.jpeg'); /* Percorso relativo dalla radice */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewAppContainer {
+  font-family: Arial, sans-serif;
+  width: 50vw; /* Imposta la larghezza al 50% della larghezza della viewport */
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Sfondo bianco semi-trasparente */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black; /* Colore del testo nero */
+  display: flex; /* Utilizza Flexbox */
+  flex-direction: column; /* Dispone i figli in colonna */
+  align-items: center; /* Allinea gli elementi al centro */
+  box-sizing: border-box; /* Include il padding e il bordo nella larghezza e altezza totali dell'elemento */
+}
+
+.NewItemBox {
+  background-color: rgba(255, 255, 255, 0.8); /* Sfondo bianco semi-trasparente */
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+  color: black; /* Mantiene il testo leggibile nel box */
+  width: 100%; /* Imposta la larghezza al 100% del container */
+  display: flex; /* Utilizza Flexbox */
+  flex-direction: column; /* Dispone i figli in colonna */
+  align-items: flex-start; /* Allinea gli elementi all'inizio */
+}
+
+.NewRemoveButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #FFB6C1;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

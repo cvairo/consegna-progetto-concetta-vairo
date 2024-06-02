@@ -1,0 +1,30 @@
+/* Path: /src/styles/NewNavbar.css */
+.NewNavbarContainer {
+  background-color: #FFC0CB; /* Sfondo rosa chiaro */
+  padding: 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Imposta la larghezza al 100% del contenitore */
+  justify-content: center; /* Centra gli elementi orizzontalmente */
+  box-sizing: border-box; /* Include il padding e il bordo nella larghezza e altezza totali dell'elemento */
+}
+
+.NewNavbarContainer.clicked {
+  background-color: #A9A9A9;
+}
+
+.NewNavbarContainer:hover {
+  background-color: #FFB6C1; /* Sfondo rosa chiaro più scuro al passaggio del mouse */
+}
+
+.AnimatedText {
+  margin-left: 10px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+}
